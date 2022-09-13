@@ -9,6 +9,7 @@ public class PlayerMotor : MonoBehaviour
     private Rigidbody rb;
 
     private bool canMove = true;
+    [SerializeField]
     private float speed = 5f;
     private float currentLookSensitivity = 2f;
     private float currentCameraRotationX = 0f;
