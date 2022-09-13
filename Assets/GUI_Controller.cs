@@ -4,15 +4,44 @@ using UnityEngine;
 
 public class GUI_Controller : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private static GUI_Controller instance;
+    public static GUI_Controller Instance
     {
-        
+        get
+        {
+            if (instance == null)
+                instance = FindObjectOfType<GUI_Controller>();
+            return instance;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField]
+    private Jun_TweenRuntime fade;
+    [SerializeField]
+    private Jun_TweenRuntime flash;
+
+    public UnityEngine.Events.UnityAction fadeEvent;
+
+    public void FadeEvent()
     {
-        
+        fadeEvent();
+    }
+
+    public void Flash()
+    {
+        flash.gameObject.SetActive(true);
+        flash.Play();
+    }
+
+    public void FadeBlack(bool b)
+    {
+        if (b)
+        {
+            fade.Play();
+        }
+        else
+        {
+            fade.Rewind();
+        }
     }
 }

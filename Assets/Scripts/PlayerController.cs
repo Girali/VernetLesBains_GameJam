@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -18,7 +16,7 @@ public class PlayerController : MonoBehaviour
         playerMotor.CameraMouvement(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
         playerMotor.Mouvement(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        if(Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.H))
         {
             StartCoroutine(cameraController.Capture());
         }

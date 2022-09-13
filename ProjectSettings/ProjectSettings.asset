@@ -590,7 +590,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: TEXTURE_GRAPH;POSEIDON;POSEIDON_URP;JUPITER;TG_SEARCHER;GRIFFIN;GRIFFIN_2021
+    1: TEXTURE_GRAPH;POSEIDON;POSEIDON_URP;JUPITER;TG_SEARCHER;GRIFFIN;GRIFFIN_2021;GRIFFIN_URP
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

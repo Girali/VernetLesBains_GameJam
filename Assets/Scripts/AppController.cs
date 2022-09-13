@@ -16,6 +16,11 @@ public class AppController : MonoBehaviour
         }
     }
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     private bool cursorLocked = false;
 
 

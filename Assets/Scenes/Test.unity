@@ -497,7 +497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &914620506
 RectTransform:
   m_ObjectHideFlags: 0
@@ -569,10 +569,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_onFinish:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 914620505}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   playType: 0
   animationStartTime: 0
-  animationTime: 1
+  animationTime: 1.9783057
   enablePlay: 1
   awakePlay: 0
   lgnoreTimeScale: 1
@@ -590,20 +602,20 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 0
         value: 1
-        inSlope: 0
-        outSlope: 0
+        inSlope: -1.9808282
+        outSlope: -1.9808282
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
-        outWeight: 0
+        outWeight: 0.054770317
       - serializedVersion: 3
         time: 1
-        value: 1
-        inSlope: 2
-        outSlope: 2
+        value: 0
+        inSlope: -0.46615744
+        outSlope: -0.46615744
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0
+        inWeight: 0.11130744
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -611,7 +623,7 @@ MonoBehaviour:
     _minAnimationTime: 0
     _maxAnimationTime: 1
     _minTime: 0
-    _maxTime: 1
+    _maxTime: 1.9783057
     _isLocal: 1
     _fromVector: {x: 0, y: 0, z: 0}
     _toVector: {x: 0, y: 0, z: 0}
@@ -851,6 +863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24a58b0ab504c7b4ba1be35d6ce7ab84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fade: {fileID: 1793061695}
+  flash: {fileID: 914620509}
 --- !u!1 &1029912828
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,6 +1383,7 @@ GameObject:
   - component: {fileID: 1793061692}
   - component: {fileID: 1793061694}
   - component: {fileID: 1793061693}
+  - component: {fileID: 1793061695}
   m_Layer: 5
   m_Name: Fade
   m_TagString: Untagged
@@ -1408,7 +1423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.4688767}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1430,6 +1445,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793061691}
   m_CullTransparentMesh: 1
+--- !u!114 &1793061695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793061691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411dcac04aff248c4b98f1feb5595fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_onFinish:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1009891041}
+        m_TargetAssemblyTypeName: GUI_Controller, Assembly-CSharp
+        m_MethodName: FadeEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  playType: 0
+  animationStartTime: 0
+  animationTime: 2.079379
+  enablePlay: 1
+  awakePlay: 0
+  lgnoreTimeScale: 1
+  randomStartValue: 0
+  startValue: 0
+  _timelineEvents: []
+  tweens:
+  - _tweenName: 
+    _tweenType: 4
+    _isSelf: 1
+    _tweenObject: {fileID: 1793061692}
+    _curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    _minAnimationTime: 0
+    _maxAnimationTime: 1
+    _minTime: 0
+    _maxTime: 2.079379
+    _isLocal: 1
+    _fromVector: {x: 0, y: 0, z: 0}
+    _toVector: {x: 0, y: 0, z: 0}
+    _fromColor: {r: 1, g: 1, b: 1, a: 1}
+    _toColor: {r: 1, g: 1, b: 1, a: 1}
+    _fromFloat: 0
+    _toFloat: 1
+    _bezierCurve: {fileID: 0}
 --- !u!1 &1806891505
 GameObject:
   m_ObjectHideFlags: 0
