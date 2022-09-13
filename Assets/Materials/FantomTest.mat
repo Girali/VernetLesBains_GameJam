@@ -19,8 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_2c7e59969a634ecfaf2a5ee92bdbf701:
+        m_Texture: {fileID: 2800000, guid: 666b559325c436d4698285e6cd942abb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_e225c1b5e35f401ca99dbf0f28a1ecf4:
-        m_Texture: {fileID: 2800000, guid: 5dcc279131aeed545b67fdf0adeb1ea9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 666b559325c436d4698285e6cd942abb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -80,8 +84,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_5317ddf4bd464e95bc7aa7e8836eebab: 0.3
     - Vector1_5f4800544d984eca9a2ad4caa77355e5: 0.1
-    - Vector1_c81f8ff464954d85a4213859483c4054: 0.5
+    - Vector1_7089b4c20ffa40cc805204af2b2d990c: 0.58
+    - Vector1_c56a477f23f74d0d942617a194adfcf6: 2.43
+    - Vector1_c81f8ff464954d85a4213859483c4054: 0.1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -99,6 +106,7 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _Power: 0.092
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -109,10 +117,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_c65d60e7e758428e881a93cef3095c03: {r: 2, g: 1.5294118, b: 0.14117648, a: 1}
-    - Color_c65d60e7e758428e881a93cef3095c03_1: {r: 8.282353, g: 14.807843, b: 0, a: 1}
-    - Color_fb956a5ea7574a188164f5bb814a2903: {r: 32, g: 28.486275, b: 0, a: 1}
-    - Vector2_34a7edf0513b4c058a70ca0f898e8b45: {r: 1, g: 1, b: 0, a: 0}
+    - Color_c65d60e7e758428e881a93cef3095c03: {r: 0.40475985, g: 1.0462943, b: 1.362049, a: 0.34509805}
+    - Color_c65d60e7e758428e881a93cef3095c03_1: {r: 0.81808615, g: 1.8503816, b: 2.0404031, a: 0.18431373}
+    - Color_fb956a5ea7574a188164f5bb814a2903: {r: 15.309804, g: 15.309804, b: 15.309804, a: 1}
+    - Vector2_328f05f0c1ce4a4686bd495931de5588: {r: 0, g: 0.06, b: 0, a: 0}
+    - Vector2_34a7edf0513b4c058a70ca0f898e8b45: {r: 0.02, g: 0.02, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
