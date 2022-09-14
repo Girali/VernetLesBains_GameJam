@@ -44,6 +44,8 @@ public class CameraController : MonoBehaviour
 
         yield return null;
 
+        GUI_Controller.Instance.NewPhoto(photo);
+
         gameObject.SetActive(false);
 
         //byte[] bytes = image.EncodeToPNG();

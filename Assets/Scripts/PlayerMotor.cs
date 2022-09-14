@@ -16,6 +16,17 @@ public class PlayerMotor : MonoBehaviour
     private float cameraRotationLimit = 85f;
     private Vector3 move;
 
+    [SerializeField]
+    private Animator animator;
+
+    public bool CanMove
+    {
+        set
+        {
+            canMove = value;
+        }
+    }
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -37,6 +48,8 @@ public class PlayerMotor : MonoBehaviour
             move = Vector3.Lerp(move,Vector3.zero,0.5f);
             move.y = rb.velocity.y;
         }
+
+        Animate(new Vector2(x,z));
     }
 
     public void CameraMouvement(float y, float x)
@@ -67,5 +80,11 @@ public class PlayerMotor : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = move;
+    }
+
+    private void Animate(Vector2 v)
+    {
+        animator.SetFloat("X", v.x);
+        animator.SetFloat("Y", v.y);
     }
 }

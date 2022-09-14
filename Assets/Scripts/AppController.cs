@@ -22,7 +22,16 @@ public class AppController : MonoBehaviour
     }
 
     private bool cursorLocked = false;
+    public bool mainQuestPhoto = false;
+    public QuestZone currentQuestZone = null;
 
+    public UnityEngine.Events.UnityAction zoneCompleteEvent; 
+
+    public void TakePicture(PlayerController pc)
+    {
+        if(currentQuestZone)
+            currentQuestZone.TakePicture(pc);
+    }
 
     public bool CursorLocked
     {
