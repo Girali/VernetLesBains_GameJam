@@ -1,0 +1,1013 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1889; Version 2009; 64bit' Language: 'fr' Physical Memory: 32530 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Rubens Fournier/Documents/Projet Unity/Divers/SGJ Vernet les bains/VernetLesBains_GameJam
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58539
+Successfully changed project path to: C:/Users/Rubens Fournier/Documents/Projet Unity/Divers/SGJ Vernet les bains/VernetLesBains_GameJam
+C:/Users/Rubens Fournier/Documents/Projet Unity/Divers/SGJ Vernet les bains/VernetLesBains_GameJam
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Rubens Fournier/Documents/Projet Unity/Divers/SGJ Vernet les bains/VernetLesBains_GameJam/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Super with Max-Q Design (ID=0x1e93)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   30.0.15.1298
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001845 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1518ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1435ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1252ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (704ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (363ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3664 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.7 MB.
+System memory in use after: 197.7 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 4094.
+Total: 4.054900 ms (FindLiveObjects: 0.323500 ms CreateObjectMapping: 0.197100 ms MarkObjects: 2.612000 ms  DeleteObjects: 0.921100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Magical_Aura_Loop_02.wav
+  artifactKey: Guid(2e562c1b975561c4b9a56c69802c0bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Magical_Aura_Loop_02.wav using Guid(2e562c1b975561c4b9a56c69802c0bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba4a9b745830ec973bafdbdaacb2c09') in 0.085375 seconds 
+  Import took 0.089988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rockfall_Loop_02.wav
+  artifactKey: Guid(1d0d3e959130f2c498861505b820168b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rockfall_Loop_02.wav using Guid(1d0d3e959130f2c498861505b820168b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ef32c0b917643565982d1d86bde82b') in 0.015108 seconds 
+  Import took 0.020129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(306f3ee56209b8a47b334175f83fff5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(306f3ee56209b8a47b334175f83fff5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486db7d11d828073c1513b4d21f8668f') in 0.005588 seconds 
+  Import took 0.010689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Farm_Loop_01.wav
+  artifactKey: Guid(65052792616441a40aca32718388e277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Farm_Loop_01.wav using Guid(65052792616441a40aca32718388e277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a364eeb9aa7dd9d4fc5b0345fd35e90e') in 0.030521 seconds 
+  Import took 0.035584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Astral_Plane_Loop_01.wav
+  artifactKey: Guid(526a3fe1667814349a6d5cd69754dd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Astral_Plane_Loop_01.wav using Guid(526a3fe1667814349a6d5cd69754dd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ab9d0727d49835c7cca61c9a90e62e') in 0.014576 seconds 
+  Import took 0.019278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Forest_Loop_01.wav
+  artifactKey: Guid(0aedd09d3eb48524eafaa7c0d9e6acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Forest_Loop_01.wav using Guid(0aedd09d3eb48524eafaa7c0d9e6acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a25fa0e109b43150f5f100b25016d5a') in 0.015590 seconds 
+  Import took 0.020365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rockfall_Loop_01.wav
+  artifactKey: Guid(6f388be356634bd4dad0c77f42d13ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rockfall_Loop_01.wav using Guid(6f388be356634bd4dad0c77f42d13ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4353ec6547e9d3099da67f777bff8459') in 0.013577 seconds 
+  Import took 0.018783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Cave_Loop_01.wav
+  artifactKey: Guid(ba874c5255ff26545a3ac8799b2e68f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Cave_Loop_01.wav using Guid(ba874c5255ff26545a3ac8799b2e68f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45195a95c935478630847fc84f2f51af') in 0.013547 seconds 
+  Import took 0.018413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Cave_Loop_03.wav
+  artifactKey: Guid(ef03ef85842d5d040a5106d00807f406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Cave_Loop_03.wav using Guid(ef03ef85842d5d040a5106d00807f406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5cdf57a96e626d2193645872ed571e') in 0.014978 seconds 
+  Import took 0.020046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Chopping_Wood_Without_Whoosh_Loop_01.wav
+  artifactKey: Guid(47fc3c1553aa23e41adfded3962486a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Chopping_Wood_Without_Whoosh_Loop_01.wav using Guid(47fc3c1553aa23e41adfded3962486a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5df18d4d05ba9a7bbe5ca1d7975f3cd') in 0.013985 seconds 
+  Import took 0.018862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Fire_Loop_01.wav
+  artifactKey: Guid(a1b79fbe8714fe542a10f190fb0babd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Fire_Loop_01.wav using Guid(a1b79fbe8714fe542a10f190fb0babd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587434379835a721b250dfd62abf5574') in 0.013729 seconds 
+  Import took 0.019086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Forest_Loop_02.wav
+  artifactKey: Guid(9b76e6378a0625a40a7daefb23f394dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Forest_Loop_02.wav using Guid(9b76e6378a0625a40a7daefb23f394dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2fb8041fc89e970d74516f578256cb') in 0.014166 seconds 
+  Import took 0.019705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rain_Medium_Loop_01.wav
+  artifactKey: Guid(d6390ca6b33a14543a59671e499782d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rain_Medium_Loop_01.wav using Guid(d6390ca6b33a14543a59671e499782d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89997dd6ed9b123e0d9f849a3016543') in 0.013109 seconds 
+  Import took 0.018553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Village_Loop_No_Chatter_01.wav
+  artifactKey: Guid(a2bbb551dff7490428f344889817e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Village_Loop_No_Chatter_01.wav using Guid(a2bbb551dff7490428f344889817e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05a54ebf7c3d81ea3fc6adc2be08214') in 0.015205 seconds 
+  Import took 0.020137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Church_Bells_Loop_01.wav
+  artifactKey: Guid(b793f0185d895e44483c5bef8c85a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Church_Bells_Loop_01.wav using Guid(b793f0185d895e44483c5bef8c85a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9123e8092485ca6d5c5b4153451c1a3b') in 0.014079 seconds 
+  Import took 0.018495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Village_Night_Loop_01.wav
+  artifactKey: Guid(9cb90cead0fc2f44081d31cf26363c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Village_Night_Loop_01.wav using Guid(9cb90cead0fc2f44081d31cf26363c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491bb70f35f8f608b34b3bef41b95e1a') in 0.015507 seconds 
+  Import took 0.020018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rain_Light_Loop_01.wav
+  artifactKey: Guid(c2a8e63a8ff39e243a7c7c0999308246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rain_Light_Loop_01.wav using Guid(c2a8e63a8ff39e243a7c7c0999308246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3c70ac9979d9ce8072b946956627f7') in 0.014049 seconds 
+  Import took 0.019143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Chopping_Wood_With_Whoosh_Loop_01.wav
+  artifactKey: Guid(6d4d8df747850534bb9dbcc3e7cd74a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Chopping_Wood_With_Whoosh_Loop_01.wav using Guid(6d4d8df747850534bb9dbcc3e7cd74a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43a1b27ae8410c4e766075277005e8b') in 0.013784 seconds 
+  Import took 0.018455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Dungeon_Loop_01.wav
+  artifactKey: Guid(3f7ac7da0affa1c429b7ce585d0afb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Dungeon_Loop_01.wav using Guid(3f7ac7da0affa1c429b7ce585d0afb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04f8ebf493b12b0eb15373c17fed697') in 0.014327 seconds 
+  Import took 0.019699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Blacksmith_Loop_01.wav
+  artifactKey: Guid(d370e75d4f35c6245b14ef95177b5a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Blacksmith_Loop_01.wav using Guid(d370e75d4f35c6245b14ef95177b5a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97135538a546946eb085fc4886093f2') in 0.013356 seconds 
+  Import took 0.017958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Dungeon_Loop_03.wav
+  artifactKey: Guid(53aae0f9d6051d44d8b6013d8aa8bc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Dungeon_Loop_03.wav using Guid(53aae0f9d6051d44d8b6013d8aa8bc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0ee50e81e8a066b312374cb40478cf') in 0.014362 seconds 
+  Import took 0.019285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Magical_Aura_Loop_01.wav
+  artifactKey: Guid(a6b1c879f8aa2104c9dc0ba7cb1bbac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Magical_Aura_Loop_01.wav using Guid(a6b1c879f8aa2104c9dc0ba7cb1bbac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8976d773c672aed6846d45a3de1943a3') in 0.014112 seconds 
+  Import took 0.019780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rain_Heavy_Loop_01.wav
+  artifactKey: Guid(4b617466d1eb67745bdaa23a8c13d56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Rain_Heavy_Loop_01.wav using Guid(4b617466d1eb67745bdaa23a8c13d56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eac43da8b866a1aa9b7f46753eba36d') in 0.013992 seconds 
+  Import took 0.019453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Enchanted_Forest_Loop_01.wav
+  artifactKey: Guid(55971af201a974240afe581d2c8586ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Enchanted_Forest_Loop_01.wav using Guid(55971af201a974240afe581d2c8586ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf0ff77f9c544b665200a8af0068806') in 0.014033 seconds 
+  Import took 0.019158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Village_Loop_No_Chatter_No_ChurchBell_01.wav
+  artifactKey: Guid(63b107c8d018bb3458fbbccb6d6fa9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Village_Loop_No_Chatter_No_ChurchBell_01.wav using Guid(63b107c8d018bb3458fbbccb6d6fa9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e55d8ae43d983be0288b5b9c6826fdf') in 0.013352 seconds 
+  Import took 0.018562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Dungeon_Loop_02.wav
+  artifactKey: Guid(55358efc178da0640a2e5df941ca127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Dungeon_Loop_02.wav using Guid(55358efc178da0640a2e5df941ca127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56651abfca8c94f482b8e0a007c4319') in 0.014437 seconds 
+  Import took 0.019624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Townspeople_Chatter_Loop_01.wav
+  artifactKey: Guid(8dfcba82bee29e24887467ff2c0f0ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Townspeople_Chatter_Loop_01.wav using Guid(8dfcba82bee29e24887467ff2c0f0ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e906a378bef968ebf38d0c23ba18140e') in 0.013627 seconds 
+  Import took 0.019186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Village_Loop_01.wav
+  artifactKey: Guid(dae528258d3f1534fa4f6a43c145c108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Village_Loop_01.wav using Guid(dae528258d3f1534fa4f6a43c145c108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c72c9af78297e17d33b702caf65985') in 0.013931 seconds 
+  Import took 0.019449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack
+  artifactKey: Guid(ecd59029b9f900143a87886edac95963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack using Guid(ecd59029b9f900143a87886edac95963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b77f61920ed6e1ab4ad76f53bae8f66') in 0.005396 seconds 
+  Import took 0.010486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Forest_Burning_Loop_01.wav
+  artifactKey: Guid(46c69eec04c14c5418e4776bcbb85b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Forest_Burning_Loop_01.wav using Guid(46c69eec04c14c5418e4776bcbb85b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad41d0a2050ee8848020e84bbeeb2a2') in 0.015500 seconds 
+  Import took 0.020521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Fire_Loop_02.wav
+  artifactKey: Guid(5247e3bf7b4303147b12defc1ed33275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Fire_Loop_02.wav using Guid(5247e3bf7b4303147b12defc1ed33275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e7a77fe613918c2e399ccb61455d44') in 0.014896 seconds 
+  Import took 0.021434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Astral_Plane_Loop_02.wav
+  artifactKey: Guid(b6fe7116a09b35c4ea15e1422853bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Astral_Plane_Loop_02.wav using Guid(b6fe7116a09b35c4ea15e1422853bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8e392dceb91f88d0f08abc7398c835') in 0.014818 seconds 
+  Import took 0.020107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Cave_Loop_02.wav
+  artifactKey: Guid(f783aea8cd8c8654393cee57758cce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy_Ambience_Sounds_Pack/Cave_Loop_02.wav using Guid(f783aea8cd8c8654393cee57758cce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920b9aa987dfbba417237346e7578778') in 0.014018 seconds 
+  Import took 0.018970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.806576 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle
+  artifactKey: Guid(46bb921a4c2f29a4982da2e680585abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle using Guid(46bb921a4c2f29a4982da2e680585abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6c444f9af585db5a0d7c66bc04e649') in 0.004904 seconds 
+  Import took 0.010318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.127572 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds
+  artifactKey: Guid(126c8d85bd9da984182731bda1374b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds using Guid(126c8d85bd9da984182731bda1374b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d4caedf28ce95bfd732de52b841a76') in 0.004800 seconds 
+  Import took 0.010087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.897786 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Ambient
+  artifactKey: Guid(b10d1940b1f2cf94784af8554e55f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Ambient using Guid(b10d1940b1f2cf94784af8554e55f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ede20dd55be66ba2e1e0c713926ba33') in 0.004932 seconds 
+  Import took 0.010286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060601 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Ambient/Cave 4 Loop.wav
+  artifactKey: Guid(6fbd540688c9e5b46b72041ecf95c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Ambient/Cave 4 Loop.wav using Guid(6fbd540688c9e5b46b72041ecf95c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa3bccce1be33d8c8a854f91057a2a0') in 0.016340 seconds 
+  Import took 0.022428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Ambient/Village 4 Loop.wav
+  artifactKey: Guid(7fb4c23b5c02cc94b968d560d12bb172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Ambient/Village 4 Loop.wav using Guid(7fb4c23b5c02cc94b968d560d12bb172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8bfb36008256505264a4e4e2462833') in 0.015411 seconds 
+  Import took 0.020644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Ambient/Cave 5 Loop.wav
+  artifactKey: Guid(d456bfa16889fa745af3ea7885fe2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Ambient/Cave 5 Loop.wav using Guid(d456bfa16889fa745af3ea7885fe2961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56d7726689f342dcc265afe179b794b') in 0.015777 seconds 
+  Import took 0.020974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.062861 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh
+  artifactKey: Guid(f24f612897418104e9599733d210f195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh using Guid(f24f612897418104e9599733d210f195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f2f28d70d96e16ae88037ca2ca5f02') in 0.005670 seconds 
+  Import took 0.011685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062833 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_1.wav
+  artifactKey: Guid(f94a6e16e73443944afa7f83e4118349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_1.wav using Guid(f94a6e16e73443944afa7f83e4118349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e713a143d02ced3bbcc3571d1a64f96') in 0.015052 seconds 
+  Import took 0.020154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_04.wav
+  artifactKey: Guid(8a39e3a02da838642b0dfe45124fd646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_04.wav using Guid(8a39e3a02da838642b0dfe45124fd646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ddc27b6d6c559b74ab206712765792') in 0.015151 seconds 
+  Import took 0.019845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_06.wav
+  artifactKey: Guid(47ae4aafb5a276f4db9d847d69960d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_06.wav using Guid(47ae4aafb5a276f4db9d847d69960d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c639f8065ad697f68ffb4921df23caa') in 0.014593 seconds 
+  Import took 0.020589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_07.wav
+  artifactKey: Guid(0be63e37b42aef54f9f181cc0999617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_07.wav using Guid(0be63e37b42aef54f9f181cc0999617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452e04a1c98bf318223b29597d347ec7') in 0.018710 seconds 
+  Import took 0.023454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_14.wav
+  artifactKey: Guid(b89021c40e84d924ea41bcdee5ba186a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_14.wav using Guid(b89021c40e84d924ea41bcdee5ba186a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b52858f2ec2a32293ad1367e11092b5') in 0.013878 seconds 
+  Import took 0.018750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_5.wav
+  artifactKey: Guid(86737aa327ee5474db282e45016f64fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_5.wav using Guid(86737aa327ee5474db282e45016f64fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2964470f872b3c734462d77f80a0f1') in 0.013553 seconds 
+  Import took 0.018867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_2.wav
+  artifactKey: Guid(3b36d147b0980734cac6bbbf5fbbbdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_2.wav using Guid(3b36d147b0980734cac6bbbf5fbbbdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9d28c011ee2eedf0f24267f2fcd655') in 0.013234 seconds 
+  Import took 0.018460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_12.wav
+  artifactKey: Guid(a20fa3396f95cb64a904920b281f8d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_12.wav using Guid(a20fa3396f95cb64a904920b281f8d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd518b1ab5e9b5b2c641ab41abd4039d2') in 0.013898 seconds 
+  Import took 0.019253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_10.wav
+  artifactKey: Guid(c54e38ede8cdcf647a3d0c905293ae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_10.wav using Guid(c54e38ede8cdcf647a3d0c905293ae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047653542a7b3e97586021c0b511ca23') in 0.013919 seconds 
+  Import took 0.018703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_03.wav
+  artifactKey: Guid(dd5c74a4809aee9409c2df7c21ba87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_03.wav using Guid(dd5c74a4809aee9409c2df7c21ba87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350f3bdf8fd3c70a22ae84221af3a25f') in 0.013080 seconds 
+  Import took 0.017746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_7.wav
+  artifactKey: Guid(e1be6879da07da741a196ed5a74fe8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_7.wav using Guid(e1be6879da07da741a196ed5a74fe8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7282f85c66ce968c74d2d362c99dcba0') in 0.014618 seconds 
+  Import took 0.019212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_4.wav
+  artifactKey: Guid(e1b004cc800c2fe47b636022f37f4e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_4.wav using Guid(e1b004cc800c2fe47b636022f37f4e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e832736ecb8020898f688458d59fa86') in 0.013216 seconds 
+  Import took 0.018134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_01.wav
+  artifactKey: Guid(0ea6d9f4e5cf1d343ab83484e4eed0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_01.wav using Guid(0ea6d9f4e5cf1d343ab83484e4eed0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc946f46056eb250c1f7afcac515ca6a') in 0.013222 seconds 
+  Import took 0.017954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_8.wav
+  artifactKey: Guid(9b2fb227e4e6a8249b3d60eecc7ab9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_8.wav using Guid(9b2fb227e4e6a8249b3d60eecc7ab9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bef7e04afb9471110fdbd189a16026') in 0.014846 seconds 
+  Import took 0.019854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_02.wav
+  artifactKey: Guid(13045beeed3118c459e1f0ab1e2e7838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_02.wav using Guid(13045beeed3118c459e1f0ab1e2e7838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee572c773b601f80d2eaafd6e9b9aad') in 0.013522 seconds 
+  Import took 0.018191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_5.wav
+  artifactKey: Guid(334bb9ef1eafd104a9e95042d233b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_5.wav using Guid(334bb9ef1eafd104a9e95042d233b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4989f72403d7597b5ce607841ead5fd3') in 0.013285 seconds 
+  Import took 0.017970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 13_1.wav
+  artifactKey: Guid(97e7a42bd37eb7a49af76f69b4cc4738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 13_1.wav using Guid(97e7a42bd37eb7a49af76f69b4cc4738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595012c9356163368df733fc126f8f5e') in 0.013576 seconds 
+  Import took 0.018341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_2.wav
+  artifactKey: Guid(0faf433b5d019a449b29f36e7dd144e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_2.wav using Guid(0faf433b5d019a449b29f36e7dd144e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a272e0bd6167cde2456621c8297995c7') in 0.013218 seconds 
+  Import took 0.017784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_4.wav
+  artifactKey: Guid(11cfc52c1a75db144aa989a2c9d64c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_4.wav using Guid(11cfc52c1a75db144aa989a2c9d64c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f86e64101708db2983aa576b770437') in 0.014064 seconds 
+  Import took 0.019079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_3.wav
+  artifactKey: Guid(a82dadb4b0104f049980ef2293089605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_3.wav using Guid(a82dadb4b0104f049980ef2293089605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4bc0ba4c143613148cf085d6275c70') in 0.013346 seconds 
+  Import took 0.018562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_11.wav
+  artifactKey: Guid(504b8d13ae783f5449ce7f693e442b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_11.wav using Guid(504b8d13ae783f5449ce7f693e442b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea6aaed49619c473e71e30b775fdaea') in 0.013900 seconds 
+  Import took 0.019428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_2.wav
+  artifactKey: Guid(4a8043cefcedf00409b391d2de8459b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_2.wav using Guid(4a8043cefcedf00409b391d2de8459b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b4c21b70ec9985ddb0ee73d77dccf0') in 0.013601 seconds 
+  Import took 0.018607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_5.wav
+  artifactKey: Guid(8059a92a769afb44994fd3e24efa4398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_5.wav using Guid(8059a92a769afb44994fd3e24efa4398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedc3cc32665c1fa7efd49c682a6f030') in 0.014350 seconds 
+  Import took 0.019295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_1.wav
+  artifactKey: Guid(335f95c0d065bc5448eaba01342886d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_1.wav using Guid(335f95c0d065bc5448eaba01342886d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef42f084309ae7fb9666749509ab1a1') in 0.015233 seconds 
+  Import took 0.020372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_13.wav
+  artifactKey: Guid(12bea0e541c16c94583c4110e6dc733d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_13.wav using Guid(12bea0e541c16c94583c4110e6dc733d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5132245679099180321d479d4d76759f') in 0.015873 seconds 
+  Import took 0.021426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_15.wav
+  artifactKey: Guid(bb68a4817a87f0d4598b0e7e6bb662eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_15.wav using Guid(bb68a4817a87f0d4598b0e7e6bb662eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7bbd2e179cd20cd3ae456158b59a67') in 0.015428 seconds 
+  Import took 0.021655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_09.wav
+  artifactKey: Guid(837ce8c6ae5b1ff428e8339f35ee099d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_09.wav using Guid(837ce8c6ae5b1ff428e8339f35ee099d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cabbbce29142fece8308a283678da1d') in 0.014860 seconds 
+  Import took 0.020629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_05.wav
+  artifactKey: Guid(9862ff87cf82f684bb81c201442621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_05.wav using Guid(9862ff87cf82f684bb81c201442621f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adf0de1c245420f0dea72e12b751bc1') in 0.014261 seconds 
+  Import took 0.019323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_08.wav
+  artifactKey: Guid(e9f8995f20f601345999711edf18825b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 10_08.wav using Guid(e9f8995f20f601345999711edf18825b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeaa2160715bf8c72a2fbf924775092') in 0.014525 seconds 
+  Import took 0.020320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_6.wav
+  artifactKey: Guid(19b99eddbc6436d489dfbaf6e0010102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_6.wav using Guid(19b99eddbc6436d489dfbaf6e0010102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54191b176145cbb77a6a5b72630b742') in 0.014014 seconds 
+  Import took 0.019853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_3.wav
+  artifactKey: Guid(a2b5e02d14b2d214184b9146fe8840d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_3.wav using Guid(a2b5e02d14b2d214184b9146fe8840d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b3f8c875ed19c317e97eca4973a91d') in 0.014415 seconds 
+  Import took 0.019638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_4.wav
+  artifactKey: Guid(fa71274ea1b66da4d870665ceb171857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 11_4.wav using Guid(fa71274ea1b66da4d870665ceb171857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278993d4d98ae091316c47bdbb8202bb') in 0.015138 seconds 
+  Import took 0.020576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_3.wav
+  artifactKey: Guid(df4b0a34069dfee4bbadff3e38e09e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 9_3.wav using Guid(df4b0a34069dfee4bbadff3e38e09e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e395bea50680d4bf80da54d39a7b0486') in 0.014589 seconds 
+  Import took 0.019246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_1.wav
+  artifactKey: Guid(2444855a17750ec43bab7496edd31fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Whoosh/Whoosh 12_1.wav using Guid(2444855a17750ec43bab7496edd31fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841cf6e25de4dbfa17fec7a585584dd2') in 0.014269 seconds 
+  Import took 0.019219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 834.597714 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters
+  artifactKey: Guid(b55f2c4e5369a574f97219ff5d41979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters using Guid(b55f2c4e5369a574f97219ff5d41979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ce76828fd1905a347bf6957c56656f') in 0.005025 seconds 
+  Import took 0.011533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.039382 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13
+  artifactKey: Guid(b5d09c9a7d80b6549bba21920bba11b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13 using Guid(b5d09c9a7d80b6549bba21920bba11b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56408ab15e0bbcb2b440d0e9c53ad35') in 0.004764 seconds 
+  Import took 0.010033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055495 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 1.wav
+  artifactKey: Guid(41cd2765ed612b741979e861e2a2b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 1.wav using Guid(41cd2765ed612b741979e861e2a2b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a383f6df05b8b9fd3841be4c9ced021') in 0.014524 seconds 
+  Import took 0.019890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 2.wav
+  artifactKey: Guid(0eb816f092c46ae41bc4ec98ca37ed93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 2.wav using Guid(0eb816f092c46ae41bc4ec98ca37ed93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579d68aabf653bdb23874f8e9ab4b499') in 0.012986 seconds 
+  Import took 0.017635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 6.wav
+  artifactKey: Guid(aaed667f04e1ac74aa342be637408179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 6.wav using Guid(aaed667f04e1ac74aa342be637408179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9697ce3941aabee5ba4cd4fc103e7325') in 0.014209 seconds 
+  Import took 0.019786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 8.wav
+  artifactKey: Guid(8057867577358b14cb6194a99cc0985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 8.wav using Guid(8057867577358b14cb6194a99cc0985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c76f94677f59eeb850d8bbbf5ebcf4f') in 0.015083 seconds 
+  Import took 0.020011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 7.wav
+  artifactKey: Guid(448996bc03566eb4ebffa7c7bd77a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 7.wav using Guid(448996bc03566eb4ebffa7c7bd77a805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8406d03847a7b58acdf569b9d44ca427') in 0.013773 seconds 
+  Import took 0.018556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 2.wav
+  artifactKey: Guid(86ef696a7f635cc4db06d0e2fa407b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 2.wav using Guid(86ef696a7f635cc4db06d0e2fa407b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2a6abf4b0131792fc9189a4de074b6') in 0.013134 seconds 
+  Import took 0.018184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 4.wav
+  artifactKey: Guid(62f87a12223d8cf4cbdc26b9d9b967bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 4.wav using Guid(62f87a12223d8cf4cbdc26b9d9b967bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58b988692d040e017311036dfa12710') in 0.014946 seconds 
+  Import took 0.020500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 6.wav
+  artifactKey: Guid(1947ffae870552a419f14b83749d1476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 6.wav using Guid(1947ffae870552a419f14b83749d1476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3b54a9334254e807294ee27fdab404') in 0.013634 seconds 
+  Import took 0.018226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 1.wav
+  artifactKey: Guid(0a985677d21096b4985ccd30ce978b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 1.wav using Guid(0a985677d21096b4985ccd30ce978b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688c821274746bab5433056da0dfae71') in 0.014507 seconds 
+  Import took 0.019143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 4.wav
+  artifactKey: Guid(71bd4ee4d61ec4f49b7860ecb4a36cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 4.wav using Guid(71bd4ee4d61ec4f49b7860ecb4a36cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b9e3d19ae6ccf1f1ea82fdefcceb0e') in 0.013856 seconds 
+  Import took 0.019447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 5.wav
+  artifactKey: Guid(309246712bfe0fd4c824583e27354020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 5.wav using Guid(309246712bfe0fd4c824583e27354020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bc5f4e7adda8c4fe0bcfd8e313de74') in 0.013799 seconds 
+  Import took 0.018719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 7.wav
+  artifactKey: Guid(0963c3fc0d497484cb7c592b242294dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 7.wav using Guid(0963c3fc0d497484cb7c592b242294dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edc46a70a907add11fdaeb9e5c855cd') in 0.013502 seconds 
+  Import took 0.018713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 3.wav
+  artifactKey: Guid(8b13c30845e12e140ace42421199e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 3.wav using Guid(8b13c30845e12e140ace42421199e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2ade2767822ae4616b89891695bf96') in 0.013470 seconds 
+  Import took 0.018143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 3.wav
+  artifactKey: Guid(e2be3819445a2f94db83b3ed5526a060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Long 3.wav using Guid(e2be3819445a2f94db83b3ed5526a060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f67c6f9e3f309561bd436a69ee069cb') in 0.014948 seconds 
+  Import took 0.020975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 5.wav
+  artifactKey: Guid(28e6ad5fd4792f24db7af6d3bf453db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Large Creature 13/Large Creature 13 - Short 5.wav using Guid(28e6ad5fd4792f24db7af6d3bf453db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990d3c7b2af9f4f76007d29410ace3d7') in 0.014330 seconds 
+  Import took 0.020597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.391460 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl
+  artifactKey: Guid(0f90948fbaf2cb9449d256b6a41b3ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl using Guid(0f90948fbaf2cb9449d256b6a41b3ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047d4ffeb25a3af6a47eb658dd448976') in 0.005295 seconds 
+  Import took 0.011090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052083 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_1.wav
+  artifactKey: Guid(608cc8864e214fe469c181c8704401de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_1.wav using Guid(608cc8864e214fe469c181c8704401de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd493fdfd849914c418ca78a927fba0de') in 0.012975 seconds 
+  Import took 0.018396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_3.wav
+  artifactKey: Guid(3ccd7398f5a36c5448bee1f8029c280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_3.wav using Guid(3ccd7398f5a36c5448bee1f8029c280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345bbdd65f986f4bd2963cb77f5058f3') in 0.013071 seconds 
+  Import took 0.017943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_2.wav
+  artifactKey: Guid(20b017f42cc47584bb26ef07e036ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_2.wav using Guid(20b017f42cc47584bb26ef07e036ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a919c4e4af52882764943551215e901f') in 0.013912 seconds 
+  Import took 0.019018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_4.wav
+  artifactKey: Guid(d9d2314e887064147abb10b908e2ef6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_4.wav using Guid(d9d2314e887064147abb10b908e2ef6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9a44c9c0bcee949d5eb1c04e8a2363') in 0.014030 seconds 
+  Import took 0.019243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_5.wav
+  artifactKey: Guid(2906099ab62725946a1547730cf78a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Fantasy Sounds Bundle/Exclusive Sounds/Monsters/Growl/Growl 4_5.wav using Guid(2906099ab62725946a1547730cf78a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea4c50e67f816190ffa6c34a5bced64') in 0.013907 seconds 
+  Import took 0.018632 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (619ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (346ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.4 MB.
+System memory in use after: 176.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4105.
+Total: 4.084800 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.191600 ms MarkObjects: 2.714400 ms  DeleteObjects: 0.834600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 842.469364 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem
+  artifactKey: Guid(6b1effad1aad6fc4b89e528c70ee54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem using Guid(6b1effad1aad6fc4b89e528c70ee54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b62a25246922d31acb6843f387b3932') in 0.010852 seconds 
+  Import took 0.016684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.848975 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris Extension - URP Support
+  artifactKey: Guid(cf94a2c7d1fc2b34180d1aa9c4fd1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris Extension - URP Support using Guid(cf94a2c7d1fc2b34180d1aa9c4fd1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66bebd23303182e3a8db937f95e3c75') in 0.004926 seconds 
+  Import took 0.010072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.105797 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine
+  artifactKey: Guid(6638f055ff57b5d4a9d2760f8fac1d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine using Guid(6638f055ff57b5d4a9d2760f8fac1d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387a36c0207a19bc423170f04bc04e50') in 0.004710 seconds 
+  Import took 0.010120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.052900 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Low Poly Tools Bundle
+  artifactKey: Guid(0495298fbed9697498e1c30e63f6b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Low Poly Tools Bundle using Guid(0495298fbed9697498e1c30e63f6b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc01eddba73f2475763f3d3c2776b86a') in 0.005000 seconds 
+  Import took 0.010421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.292840 seconds.
+  path: Assets/prefab
+  artifactKey: Guid(a23231c6c276fe64ab1b2c7353575473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab using Guid(a23231c6c276fe64ab1b2c7353575473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343e24596f51d12d2ec147b04f697efa') in 0.004543 seconds 
+  Import took 0.009791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.786000 seconds.
+  path: Assets/prefab/Niveau.prefab
+  artifactKey: Guid(07d14afd94aef964da93ee95eb94a1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Niveau.prefab using Guid(07d14afd94aef964da93ee95eb94a1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e17076feeb84dce7cf1f6f7b0a5e909') in 1.392144 seconds 
+  Import took 1.401601 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
